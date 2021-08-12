@@ -1,0 +1,71 @@
+///all variables PROVIDED BY TREEHOUSE RESOURCE FILE!!!!!! half assed work!
+
+.container {
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .theme.col-1 {
+    background-color: $lavender;
+  }
+  
+  .theme.col-2 {
+    background-color: $cheaterorange;
+  }
+  
+  .theme.col-3 {
+    background-color: $strawberry;
+  }
+  
+  .theme.col-4 {
+    background-color: $cheatblue;
+  }
+  
+  .theme.col-5 {
+    background-color: $pastelgreen;
+  }
+  
+  .theme.col-6 {
+    background-color: $darkblue;
+  }
+  
+  .theme.col-7 {
+    background-color: $strawberry;
+  }
+  
+  .theme.col-8 {
+    background-color: $pastelorange;
+  }
+  
+  .theme.col-9 {
+    background-color: $cheater;
+  }
+  
+  .theme.col-10 {
+    background-color: $zeldagreen;
+  }
+  
+  .theme.col-11 {
+    background-color: $blueskys;
+  }
+  
+  .theme.col-12 {
+    background-color: $pastelblue;
+  }
+  
+  .card {
+    flex-basis: 100%;
+  }

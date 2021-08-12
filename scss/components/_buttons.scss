@@ -1,0 +1,20 @@
+//VARIABLES PROVIDED BY TREE HOUSE RESOURCE FILE!
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+//EACH FUNCTION PROVIDED BY STACKOVERFLOW && YOUTUBE!!https://www.youtube.com/watch?v=GHUNtbW22V8&t=371s
+ @each $button, $colors in $buttons {
+     .#{$button} {
+         background-color: $colors;
+         &:hover {
+             background-color: lighten($color: $colors, $amount: 15%);
+         }
+     }
+ }
